@@ -28,7 +28,7 @@ class GetMyResults extends Command
     {
         
         $response = Http::withHeaders([
-            'Cookie' => 'SESSION=NzFjZDAzMTItMGY0Ni00MDU0LWIzOWUtNzZjYmI4NjMzY2My; haridStateToken=adb3593d-257f-4952-bca7-09ad9db56309; XSRF-TOKEN=105dc70c-2992-4587-916c-429c3b905de7'
+            'Cookie' => 'SESSION=ZWIxNzQwYzYtOGRhNC00MDAxLWEzOTgtZjBiMTUzNmFlYzk3; haridStateToken=ddd3084a-106f-4f1d-a05e-5ab4462e8695; XSRF-TOKEN=f821096e-a617-40b6-9d05-0c267d55b493'
         ])->get('https://tahvel.edu.ee/hois_back/students/88078');
 
         $data = $response->json();
